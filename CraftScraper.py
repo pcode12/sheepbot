@@ -2,11 +2,6 @@ import praw
 from praw.models import MoreComments
 import pandas as pd
 
-reddit = praw.Reddit(
-    client_id = "8GG53Au_174E9wNThz_QxA", 
-    client_secret = "p9_s3UCSeqyRYImHsOb6C9irLmDLDg", 
-    user_agent = "CraftScraper"
-)
 
 def craftSearch(craft):
     post_df = pd.DataFrame()
